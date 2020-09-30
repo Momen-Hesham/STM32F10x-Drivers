@@ -15,7 +15,7 @@ typedef struct{
 // Da pointer mesh value 3shan a3mlha dereference 
 
 
-static void (*EXTI_CallBack[16]) (void) ;
+static void (*EXTI_CallBack[7]) (void) ;
 
 
 #define EXTI	((volatile EXTI_t *) 0x40010400)

@@ -31,6 +31,7 @@ void MEXTI_voidDisableEXTI(uint8 copy_uint8Line);
 void MEXTI_voidSwTrigger(uint8 copy_uint8Line);
 void MEXTI_voidSetSignalLatch(uint8 copy_uint8Line, uint8 copy_uint8Mode);// 3shan a7wl el Sense Mode fel run time fa badl maho rissing edge masln a5leh falling 
 
-void MEXTI_voidSetCallBack(void (*ptr) (void));// Lma yegy el interrupt aro7 le anhy function
+void MEXTI_voidSetCallBack(void (*Func_ptr) (void));// Lma yegy el interrupt aro7 le anhy function
+void MEXTI_voidSetCallBackManually(uint8 Copy_uint8Line,void (*Func_ptr) (void));
 
 #endif 
