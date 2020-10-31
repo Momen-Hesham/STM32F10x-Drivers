@@ -147,7 +147,7 @@ void MGPIO_voidSetPORTDirection(uint8 copy_uint8PORT, uint8 copy_uint8Mode)
 
 }
 
-void MGPIO_voidSet_PinValue(uint8 copy_uint8PORT, uint8 copy_uint8PIN, uint8 copy_uint8Value)
+void MGPIO_voidSetPinValue(uint8 copy_uint8PORT, uint8 copy_uint8PIN, uint8 copy_uint8Value)
 {
 	//
 	switch (copy_uint8PORT)
@@ -200,7 +200,7 @@ void MGPIO_voidSet_PinValue(uint8 copy_uint8PORT, uint8 copy_uint8PIN, uint8 cop
 	//
 }
 
-void MGPIO_voidSet_PORTValue(uint8 copy_uint8PORT, uint16 copy_uint16Value)
+void MGPIO_voidSetPORTValue(uint8 copy_uint8PORT, uint16 copy_uint16Value)
 {
 	switch(copy_uint8PORT)
 	{

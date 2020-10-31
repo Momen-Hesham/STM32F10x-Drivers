@@ -63,11 +63,11 @@
 
 void MGPIO_voidSetPinDirection(uint8 copy_uint8PORT, uint8 copy_uint8PIN, uint8 copy_uint8Mode); // Mode hena ana a2sod beha input wla output
 
-void MGPIO_voidSet_PinValue(uint8 copy_uint8PORT, uint8 copy_uint8_PIN, uint8 copy_uint8Value); // Hena in case en el pin output ba5tar atl3 3leha 0 or 1 
+void MGPIO_voidSetPinValue(uint8 copy_uint8PORT, uint8 copy_uint8_PIN, uint8 copy_uint8Value); // Hena in case en el pin output ba5tar atl3 3leha 0 or 1 
 
 uint8 MGPIO_uint8GetPinValue(uint8 copy_uint8PORT, uint8 copy_uint8PIN); // Hena in case en el pin input fa a2sr bel function dy arg3 el input
 
-void MGPIO_voidSet_PORTValue(uint8 copy_uint8PORT, uint16 copy_uint16Value);
+void MGPIO_voidSetPORTValue(uint8 copy_uint8PORT, uint16 copy_uint16Value);
 
 void MGPIO_voidSetPORTDirection(uint8 copy_uint8PORT, uint8 copy_uint8Mode);
 
